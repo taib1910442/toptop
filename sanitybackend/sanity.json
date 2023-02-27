@@ -1,11 +1,11 @@
 {
   "root": true,
+  "project": {
+    "name": "sanity_backend"
+  },
   "api": {
     "projectId": "nmour9po",
     "dataset": "production"
-  },
-  "project": {
-    "name": "sanitybackend"
   },
   "plugins": [
     "@sanity/base",
@@ -19,6 +19,10 @@
         "@sanity/vision"
       ]
     }
+  },
+  "server":{
+    "hostname":"0.0.0.0",
+    "port": 3330
   },
   "parts": [
     {
