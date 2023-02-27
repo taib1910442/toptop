@@ -1,6 +1,6 @@
 import axios from 'axios';
 
-export const BASE_URL = 'https://toptop-beta.vercel.app/';
+export const BASE_URL = 'https://toptop-beta.vercel.app';
 
 export const createOrGetUser = async (response: any, addUser: any) => {
   var base64Url = response.credential.split('.')[1];
