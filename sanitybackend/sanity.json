@@ -11,7 +11,8 @@
     "@sanity/base",
     "@sanity/default-layout",
     "@sanity/default-login",
-    "@sanity/desk-tool"
+    "@sanity/desk-tool",
+    "vercel-deploy"
   ],
   "env": {
     "development": {
@@ -20,8 +21,8 @@
       ]
     }
   },
-  "server":{
-    "hostname":"0.0.0.0",
+  "server": {
+    "hostname": "0.0.0.0",
     "port": 3330
   },
   "parts": [
